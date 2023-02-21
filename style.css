@@ -1,0 +1,313 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*css generale*/
+body{
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button{
+   display: inline-block;
+  border-radius: 20px;
+}
+
+.button.black {
+  color: white;
+  background: #292B2E;
+}
+
+.button.white {
+  color: black;
+  background-color: white;
+}
+
+.button.purple {
+  color: white;
+  background-color: #929FDD;
+}
+
+.button i {
+  margin-right: 5px;
+}
+
+/*header*/
+header {
+  background-color: #255EE9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+#box-head {
+  height: 100%;
+  text-align: center;
+}
+
+#logo, #login-button, nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#logo {
+  margin-top: 10px;
+}
+
+#logo img {
+  width: 80px;
+}
+
+#login-button a{
+  font-size: 10px;
+  padding: 6px 8px;
+}
+
+nav {
+  margin: 0 15vw;
+  line-height: 42px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+nav li a {
+  color: white;
+  font-size: 11px;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/*prima sezione*/
+
+#sub-header {
+  background-color: #255EE9;
+  margin-top: 50px;
+  background-image: url(img/jumbo.png);
+  background-size: cover;
+  min-height: 380px;
+  position: relative;
+}
+
+#jumbo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 520px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#jumbo p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.jumbo-buttons {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.jumbo-buttons a {
+  padding: 12px 20px;
+  margin: 0 10px;
+}
+
+/*sezioni main*/
+main {
+  width: 100%;
+}
+
+main section {
+  position: relative;
+}
+
+.col-small {
+  height: 450px;
+}
+
+.section-white {
+  background-color: white;
+}
+
+.section-grey {
+  background-color: #F6F6F6;
+}
+
+.section-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.col-small.section-white .section-container img,
+.col-small.section-grey .section-container .section-text {
+  float: left;
+}
+
+.col-small.section-white .section-container .section-text,
+.col-small.section-grey .section-container img {
+  float: right;
+}
+
+.col-small .section-container img {
+  width: 450px;
+}
+
+.col-small .section-container .section-text {
+  width: 240px;
+  padding-top: 20px;
+}
+
+.section-text h2 {
+  margin-bottom: 15px;
+}
+
+.section-text p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*ultima sezione*/
+
+.col-big {
+  height: 1000px;
+  text-align: center;
+}
+
+.col-big img {
+  width: 100%;
+}
+
+.col-big .section-text {
+  text-align: center;
+  padding: 0 50px;
+}
+
+#last-download img {
+  width: 400px;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 37px;
+}
+
+#last-download .button {
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 12px 20px;
+}
+
+section h4 {
+  color: black;
+}
+
+/*footer*/
+footer {
+  background-color: #292B2E;
+  color: white;
+  height: 450px;
+}
+.footer-links {
+  height: 270px;
+  border-bottom: 1px solid #929fdd44;
+}
+
+.footer-container {
+  padding-top: 60px;
+  width: 780px;
+  margin: auto;
+}
+
+.footer-block-social, .footer-block-generic {
+  display: inline-block;
+  float: left;
+}
+
+.footer-block-social img{
+  width: 15px;
+  vertical-align: middle;
+}
+
+.footer-block-social span {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+.footer-block-title, h4 {
+  color: #929FDD;
+  font-weight: bold;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.footer-block-social i {
+  font-size: 13px;
+  margin-right: 13px;
+}
+
+#language-selector {
+  font-size: 6px;
+  vertical-align: middle;
+}
+
+.footer-block-social {
+  width: 200px;
+}
+
+.socials {
+  margin-top: 5px;
+}
+
+.footer-block-generic {
+  font-size: 11px;
+  line-height: 20px;
+  margin: 0 35px;
+}
+
+.footer-block-generic li {
+  list-style: none;
+}
+
+.footer-block-generic li a {
+  color: white;
+}
+
+.footer-bottom {
+  margin-top: 25px;
+}
+
+.footer-bottom img{
+  width: 80px;
+  float: left;
+}
+
+.footer-bottom a {
+  float: right;
+  padding: 6px 8px;
+  font-size: 10px;
+}
